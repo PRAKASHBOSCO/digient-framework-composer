@@ -1,0 +1,21 @@
+{
+    "name": "digient/framework",
+    "description": "Core Function",
+	"keywords": ["framework", "digient"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prakash.j",
+            "email": "prakash.j@digient.in"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Digient\\Framework\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
